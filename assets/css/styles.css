@@ -8,11 +8,7 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-/* TODO - Remove after sections are implemented */
-section {
-    height: 750px;
-}
-
+/* Header */
 .header {
     text-align: center;
 }
@@ -70,7 +66,8 @@ section {
 }
 
 .header-scroll {
-    margin-top: 72px;
+    margin-top: 96px;
+    margin-bottom: 64px;
     width: 48px;
     animation-duration: 3s;
     animation-delay: 4s;
@@ -105,5 +102,128 @@ section {
     .header-scroll {
         margin-top: 56px;
     }
-    
+}
+
+/* Upnext */
+.upnext {
+    height: 480px;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+/* Timeline */
+.timeline {
+    background-color: #111111;
+    color: #EEEEEE;
+    -webkit-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.7);
+    box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
+    padding-bottom: 120px;
+}
+
+.timeline h1 {
+    padding-top: 120px;
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.timeline .item {
+    margin-top: 120px; 
+    padding: 36px;
+    background-color: #2A2A2A;
+}
+
+.timeline .item-date { 
+    color: #888888;
+    font-size: 24px;
+}
+
+.timeline .item-title {
+    color: white;
+    font-size: 64px;
+}
+
+.timeline .item-des {
+    margin-top: 24px;
+}
+
+.timeline .item-status {
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #AAAAAA;
+}
+
+.timeline .status-completed {
+    color: greenyellow;
+}
+
+@media (max-width: 575.98px) { 
+    .timeline .item {
+        margin-top: 64px;
+    }
+
+    .timeline .item-title {
+        font-size: 48px;
+    }
+}
+
+/* Floating */
+.floating {
+    position: relative;
+    width: 100%;
+}
+
+.floating .floating-item {
+    position: absolute;
+}
+
+.floating .floating-blue {
+    right: 0;
+    padding-top: 320px;
+}
+
+.floating .floating-blue-inner {
+    transform: rotateZ(45deg);
+    width: 180px;
+    height: 180px;
+    min-height: 180px;
+    background-color: #428bca;
+}
+
+.floating .floating-green {
+    padding-top: 720px;
+}
+
+.floating .floating-green-inner {
+    transform: rotateZ(45deg);
+    width: 320px;
+    height: 320px;
+    min-height: 320px;
+    background-color: #78dd51;
+}
+
+.floating .floating-red {
+    padding-top: 1720px;
+    right: 64px;
+}
+
+.floating .floating-red-inner {
+    transform: rotateZ(45deg);
+    width: 270px;
+    height: 270px;
+    min-height: 270px;
+    background-color: #e22367;
+}
+
+.floating .floating-yellow {
+    padding-top: 2048px;
+    left: 72px;
+}
+
+.floating .floating-yellow-inner {
+    transform: rotateZ(45deg);
+    width: 180px;
+    height: 180px;
+    min-height: 180px;
+    background-color: #fdbd40;
 }
