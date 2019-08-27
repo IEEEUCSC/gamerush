@@ -120,7 +120,7 @@ body {
     padding-bottom: 120px;
 }
 
-.timeline h1 {
+.timeline .timeline-title {
     padding-top: 120px;
     font-size: 96px;
     font-weight: 600;
@@ -158,6 +158,11 @@ body {
 }
 
 @media (max-width: 575.98px) { 
+    .timeline .timeline-title {
+        padding-top: 48px;
+        font-size: 72px;
+    }    
+
     .timeline .item {
         margin-top: 64px;
     }
