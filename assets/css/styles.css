@@ -6,6 +6,7 @@
 body {
     background-color: #1A1A1A;
     font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -114,10 +115,7 @@ body {
 .timeline {
     background-color: #111111;
     color: #EEEEEE;
-    -webkit-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.7);
-    box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
-    padding-bottom: 120px;
+    padding-bottom: 160px;
 }
 
 .timeline .timeline-title {
@@ -130,6 +128,9 @@ body {
     margin-top: 120px; 
     padding: 36px;
     background-color: #2A2A2A;
+    -webkit-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
+    box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.4);
 }
 
 .timeline .item-date { 
@@ -158,8 +159,12 @@ body {
 }
 
 @media (max-width: 575.98px) { 
+    .timeline {
+        padding-bottom: 72px;
+    }
+
     .timeline .timeline-title {
-        padding-top: 48px;
+        padding-top: 72px;
         font-size: 72px;
     }    
 
@@ -183,7 +188,7 @@ body {
 }
 
 .floating .floating-blue {
-    right: 0;
+    right: 32px;
     padding-top: 320px;
 }
 
@@ -192,7 +197,7 @@ body {
     width: 180px;
     height: 180px;
     min-height: 180px;
-    background-color: #428bca;
+    background-image: linear-gradient(to right, #428bca 0%, #2575fc 100%);
 }
 
 .floating .floating-green {
@@ -204,7 +209,7 @@ body {
     width: 320px;
     height: 320px;
     min-height: 320px;
-    background-color: #78dd51;
+    background-image: linear-gradient(to right, #78dd51 0%, #78ff51 100%);
 }
 
 .floating .floating-red {
@@ -217,7 +222,7 @@ body {
     width: 270px;
     height: 270px;
     min-height: 270px;
-    background-color: #e22367;
+    background-image: linear-gradient(to right, #e22367 0%, #ff2367 100%);
 }
 
 .floating .floating-yellow {
@@ -230,5 +235,70 @@ body {
     width: 180px;
     height: 180px;
     min-height: 180px;
-    background-color: #fdbd40;
+    background-image: linear-gradient(to right, #fded40 0%, #fdbd40 100%);
+}
+
+/* Prizes */
+.prizes {
+    background-color: #111111;
+    color: #EEEEEE;
+    padding-bottom: 160px;
+}
+
+.prizes .prizes-title {
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.prizes .prizes-medal {
+    padding-top: 24px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.prizes .prizes-medal .prizes-medal-head {
+    font-weight: 500;
+    color: #111111;
+}
+            
+.prizes .prizes-medal .prizes-medal-value {
+    display: inline;
+}
+
+.prizes .prizes-medal .gold {
+    background-color: #f9ff60;
+    background-image: linear-gradient(to right, #f9ff60 0%, #ffef77 74%);
+}
+
+.prizes .prizes-medal .sliver {
+    background-image: linear-gradient(to right, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.prizes .prizes-medal .bronze {
+    background-image: linear-gradient(to right, #c79081 0%, #dfa579 100%);
+}
+
+@media (max-width: 575.98px) { 
+    .prizes {
+        padding-bottom: 160px;
+    }
+    
+    .prizes .prizes-title {
+        padding-top: 72px;
+        font-size: 72px;
+    }    
+    
+    .prizes .prizes-medal {
+        padding-top: 48px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .prizes .prizes-medal .prizes-medal-head {
+        margin-top: 48px;
+    }
+
+    .prizes .prizes-medal .prizes-medal-value {
+        display: block;
+    }
 }
