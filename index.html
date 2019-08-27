@@ -14,13 +14,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
 
 <body>
-    <header>
-        
+    <header class="header container">
+        <img class="header-logo img-fluid" src="assets/images/logo.png" alt="GameRush 2019 Logo">
+        <div class="countdown">
+            <div class="row headline">
+                <div class="col col-sm-12">REGISTRATIONS CLOSES IN</div>
+            </div>
+            <div class="row timer">
+                <div class="col col-sm-12">
+                    <span id="days">0</span>
+                    <span class="gradient days">DAYS</span><span class="comma">,</span>
+                    <span id="hours">0</span>
+                    <span class="gradient hours">HOURS</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-register">
+            <button type="button" class="btn btn-light">REGISTER NOW</button>
+        </div>
+        <img class="header-scroll" src="assets/images/scroll.svg">
     </header>
 
     <section class="upnext">
@@ -54,6 +73,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
     <script src="assets/js/rellax.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
