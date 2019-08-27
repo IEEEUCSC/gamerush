@@ -70,6 +70,9 @@ section {
 }
 
 .header-scroll {
-    margin-top: 56px;
+    margin-top: 72px;
     width: 48px;
-}
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+  }
