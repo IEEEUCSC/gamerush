@@ -9,6 +9,17 @@ body {
     overflow-x: hidden;
 }
 
+.loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1A1A1A;
+    text-align: center;
+    padding-top: 180px; 
+}
+
 /* Header */
 .header {
     text-align: center;

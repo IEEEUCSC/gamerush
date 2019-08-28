@@ -17,7 +17,6 @@ var timerId =
     countdown(
         new Date("2019-10-12"),
         function (ts) {
-            console.log(ts);
             document.getElementById('days').innerHTML = ts.days;
             document.getElementById('hours').innerHTML = ts.hours;
         },
@@ -26,3 +25,7 @@ var timerId =
 // Rellax
 var rellax = new Rellax('.rellax');
 var rellax = new Rellax('.floating-item');
+
+window.onload = () => {
+    jQuery(".loader").fadeOut();;
+}
