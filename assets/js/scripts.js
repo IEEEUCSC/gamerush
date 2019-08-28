@@ -23,7 +23,6 @@ var timerId =
         countdown.DAYS | countdown.HOURS);
 
 // Rellax
-var rellax = new Rellax('.rellax');
 var rellax = new Rellax('.floating-item');
 
 window.onload = () => {
