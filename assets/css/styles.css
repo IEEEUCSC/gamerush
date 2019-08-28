@@ -242,10 +242,11 @@ body {
 .prizes {
     background-color: #111111;
     color: #EEEEEE;
-    padding-bottom: 160px;
+    padding-bottom: 200px;
 }
 
 .prizes .prizes-title {
+    padding-top: 48px;
     font-size: 96px;
     font-weight: 600;
 }
@@ -300,5 +301,51 @@ body {
 
     .prizes .prizes-medal .prizes-medal-value {
         display: block;
+    }
+}
+
+/* Sponsors */
+.sponsors {
+    background: white;
+    padding-bottom: 160px;
+}
+
+.sponsors .sponsors-title {
+    padding-top: 120px;
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.sponsors .sponsors-title {
+    padding-top: 120px;
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.sponsors .sponsors-item-title {
+    padding-top: 36px;
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+
+.sponsors .sponsor-item-des {
+    padding-top: 24px;
+    color: #555555;
+}
+
+@media (max-width: 575.98px) { 
+    .sponsors {
+        padding-bottom: 160px;
+    }
+    
+    .sponsors .sponsors-title {
+        padding-top: 72px;
+        font-size: 72px;
+    }    
+
+    .sponsors .sponsors-item-title {
+        padding-top: 36px;
+        margin-bottom: 24px;
+        font-size: 36px;
     }
 }
