@@ -1,16 +1,16 @@
 // Scroll reveals
-ScrollReveal().reveal('.header-logo', { delay: 1000, reset: true });
-ScrollReveal().reveal('.countdown', { delay: 1500, reset: true });
-ScrollReveal().reveal('.header-register', { delay: 1500, reset: true });
-ScrollReveal().reveal('.header-scroll', { delay: 2000, reset: true });
+ScrollReveal().reveal('.header-logo', { delay: 1000, reset: false });
+ScrollReveal().reveal('.countdown', { delay: 1500, reset: false });
+ScrollReveal().reveal('.header-register', { delay: 1500, reset: false });
+ScrollReveal().reveal('.header-scroll', { delay: 2000, reset: false });
 
-// ScrollReveal().reveal('.timeline-title', { delay: 500, reset: true });
-// ScrollReveal().reveal('.prizes-title', { delay: 500, reset: true });
+// ScrollReveal().reveal('.timeline-title', { delay: 500, reset: false });
+// ScrollReveal().reveal('.prizes-title', { delay: 500, reset: false });
 // ScrollReveal().reveal('.sponsors-title', { delay: 500 });
 
-ScrollReveal().reveal('.item', { delay: 500, reset: true });
-ScrollReveal().reveal('.prizes-medal', { delay: 800, reset: true });
-ScrollReveal().reveal('.sponsor-section', { delay: 800, reset: true });
+ScrollReveal().reveal('.item', { delay: 500, reset: false });
+ScrollReveal().reveal('.prizes-medal', { delay: 800, reset: false });
+ScrollReveal().reveal('.sponsor-section', { delay: 800, reset: false });
 
 // Countdown timer
 var timerId =
