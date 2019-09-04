@@ -228,6 +228,24 @@ body {
     color: greenyellow;
 }
 
+.item-speakers .item-speakers-title {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-speakers .item-speaker {
+    padding-top: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item-speakers .item-speaker span{
+    color: #428bca;
+    font-weight: 600;
+}
+
 @media (max-width: 575.98px) { 
     .timeline {
         padding-bottom: 72px;
