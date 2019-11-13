@@ -15,7 +15,7 @@ ScrollReveal().reveal('.sponsor-section', { delay: 800, reset: false });
 // Countdown timer
 var timerId =
     countdown(
-        new Date("2019-09-17"),
+        new Date("2019-08-30"),
         function (ts) {
             document.getElementById('days').innerHTML = ts.days;
             document.getElementById('hours').innerHTML = ts.hours;
