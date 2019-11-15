@@ -12,7 +12,7 @@ position: absolute;
 bottom: 6rem;
 right: 8rem;
 width: 160px;
-height: 160px;
+height: 120px;
 transform: translate3d(0px, 0px, 0px) rotate(45deg);
 background-color: #046693;
 border-radius: 50%; }
