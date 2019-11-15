@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>redirecting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="assets/js/redirect.js"></script>
+    <script>
+        var baseUrl = 'http://gamerush.ucscieee.com/';
+        var baseUrlSsl = 'https://gamerush.ucscieee.com/';
+
+        if (location.href == baseUrl + 'register' || location.href == baseUrlSsl + 'register') {
+            window.location = 'https://docs.google.com/forms/d/e/1FAIpQLScJnzNVYKg53uUpwPDdVZSFtWXoA9EGIHTqqwVO2NYuTwv9Fg/viewform?usp=sf_link';
+        }
+    </script>
 </head>
+
 <body>
     redirecting
 </body>
+
 </html>
